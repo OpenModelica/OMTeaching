@@ -1,0 +1,12 @@
+// Generate 2.0 ME CS FMUs for 32 and 64 bit of Linux and Windows
+// You'll need Docker for this
+
+loadFile("../DualMassOscillator.mo"); getErrorString();
+
+buildModelFMU(DualMassOscillator.System1, "2.0", "me_cs", platforms={"x86_64-linux-gnu docker run docker.openmodelica.org/build-deps:v1.13", "i686-linux-gnu docker run docker.openmodelica.org/build-deps:v1.13-i386", "x86_64-w64-mingw32 docker run docker.openmodelica.org/msyscross-omsimulator:v2.0", "i686-w64-mingw32 docker run docker.openmodelica.org/msyscross-omsimulator:v2.0"});
+getErrorString();
+
+buildModelFMU(DualMassOscillator.System2, "2.0", "me_cs", platforms={"x86_64-linux-gnu docker run docker.openmodelica.org/build-deps:v1.13", "i686-linux-gnu docker run docker.openmodelica.org/build-deps:v1.13-i386", "x86_64-w64-mingw32 docker run docker.openmodelica.org/msyscross-omsimulator:v2.0", "i686-w64-mingw32 docker run docker.openmodelica.org/msyscross-omsimulator:v2.0"});
+getErrorString();
+
+system("rm *.libs *.log *.makefile");
