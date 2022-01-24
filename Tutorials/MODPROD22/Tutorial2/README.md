@@ -1,6 +1,6 @@
 # FMI for Composite Modeling, Co-simulation and Model Exchange
 
-This tutorial was held at the 15th [MODPROD Workshop on Model-Based Cyber-physical Product Development](https://modprodblog.wordpress.com/) on 3rd February 2021.
+This tutorial was held at the 16th [MODPROD Workshop on Model-Based Cyber-physical Product Development](https://modprodblog.wordpress.com/) on 1rd February 2022.
 
 ## Content
 This tutorial will give an introduction to the FMI-based Co-simulation tool
@@ -11,7 +11,7 @@ models with multiple FMUs connected and to create an SSP model with OMEdit.
 
 ## How to
 Open 'FMI for Composite Modeling, Co-simulation and Model Exchange.pdf' and read along.
-The presentation will tell you how to install 
+The presentation will tell you how to install the needed software.
 
 ## Requirements
 
@@ -29,7 +29,7 @@ The presentation will tell you how to install
 Mac users should use a virtual machine with Linux or use a Linux Docker image.
 
 ## Authors
-Andreas Heuermann, Linköping University<br>
+Andreas Heuermann, University of Applioed Sciences<br>
 Lennart Ochel, RISE
 
 GitHub user names: [AnHeuermann](https://github.com/AnHeuermann), [lochel](https://github.com/lochel)
