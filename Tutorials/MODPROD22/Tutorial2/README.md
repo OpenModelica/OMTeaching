@@ -29,7 +29,7 @@ The presentation will tell you how to install the needed software.
 Mac users should use a virtual machine with Linux or use a Linux Docker image.
 
 ## Authors
-Andreas Heuermann, University of Applioed Sciences<br>
+Andreas Heuermann, University of Applioed Sciences Bielefeld<br>
 Lennart Ochel, RISE
 
 GitHub user names: [AnHeuermann](https://github.com/AnHeuermann), [lochel](https://github.com/lochel)
